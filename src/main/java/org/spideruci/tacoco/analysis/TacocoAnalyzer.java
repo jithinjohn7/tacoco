@@ -63,7 +63,6 @@ public class TacocoAnalyzer extends AbstractRuntimeAnalyzer {
 				}
 				CreateSQLiteDB.dump(dbFileName, sutHome, exec.toString());
 			}
-// 			exec.delete();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
